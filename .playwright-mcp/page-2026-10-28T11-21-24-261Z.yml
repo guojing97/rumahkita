@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e30]
+  - generic [ref=e31]:
+    - complementary [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: RumahKita
+          - generic [ref=e36]: MVP
+        - paragraph [ref=e37]: Urus rumah bareng-bareng.
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: Rumah Tangga
+          - generic [ref=e42]: Pemilik
+        - generic [ref=e44]: Keluarga Cemara
+      - navigation [ref=e49]:
+        - link "Dashboard" [ref=e50] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Transaksi" [ref=e57] [cursor=pointer]:
+          - /url: /transaksi
+        - link "Belanja" [ref=e62] [cursor=pointer]:
+          - /url: /belanja
+        - link "Inventori" [ref=e68] [cursor=pointer]:
+          - /url: /inventori
+        - link "Hutang & Piutang" [ref=e74] [cursor=pointer]:
+          - /url: /hutang
+        - link "Laporan" [ref=e82] [cursor=pointer]:
+          - /url: /laporan
+        - link "Pengaturan" [ref=e86] [cursor=pointer]:
+          - /url: /pengaturan
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]: BS
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: Budi Santoso
+            - paragraph [ref=e97]: budi@rumahkita.local
+        - button "Keluar akun" [ref=e98] [cursor=pointer]
+    - main [ref=e102]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - heading "Ringkasan Keuangan & Stok" [level=1] [ref=e107]
+            - paragraph [ref=e108]: Pantau arus kas keluarga dan ketersediaan barang belanjaan rumah tangga.
+          - generic [ref=e109]:
+            - combobox [ref=e110] [cursor=pointer]:
+              - option "Bulan Ini" [selected]
+              - option "Bulan Lalu"
+              - option "Tahun Ini"
+            - button "Segarkan data" [ref=e111] [cursor=pointer]
+            - link [ref=e118] [cursor=pointer]:
+              - /url: /transaksi
+              - button "Transaksi" [ref=e119]
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: Total Pemasukan
+            - generic [ref=e131]:
+              - generic [ref=e132]: Rp 1.000.047.599.999
+              - generic [ref=e133]: Periode 1 Okt 2026 - 31 Okt 2026
+          - generic [ref=e135]:
+            - generic [ref=e136]: Total Pengeluaran
+            - generic [ref=e142]:
+              - generic [ref=e143]: Rp 2.000.005.364.998
+              - generic [ref=e144]: Termasuk pengeluaran belanja otomatis
+          - generic [ref=e146]:
+            - generic [ref=e147]: Sisa Arus Kas
+            - generic [ref=e153]:
+              - generic [ref=e154]: "-Rp 999.957.764.999"
+              - generic [ref=e155]:
+                - generic [ref=e156]: Defisit ✕
+                - generic [ref=e162]: Pemasukan dikurangi pengeluaran
+          - generic [ref=e163]:
+            - generic [ref=e164]: Perlu Belanja
+            - generic [ref=e169]:
+              - generic [ref=e170]: 11 Barang
+              - generic [ref=e171]:
+                - generic [ref=e172]: 4 Habis · 7 Menipis
+                - generic [ref=e176]: Kebutuhan rumah di ambang batas
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e180]:
+              - heading "Perbandingan Arus Kas" [level=3] [ref=e181]
+              - paragraph [ref=e182]: Visualisasi rasio pemasukan versus pengeluaran kas periode ini.
+            - generic [ref=e186]:
+              - list [ref=e188]:
+                - listitem [ref=e189]:
+                  - img "Pemasukan legend icon" [ref=e190]
+                  - text: Pemasukan
+                - listitem [ref=e192]:
+                  - img "Pengeluaran legend icon" [ref=e193]
+                  - text: Pengeluaran
+              - application [ref=e195]:
+                - generic [ref=e218]:
+                  - generic [ref=e219]: Arus Kas
+                  - generic [ref=e222]:
+                    - generic [ref=e223]: Rp 0.0jt
+                    - generic [ref=e225]: Rp550000.0jt
+                    - generic [ref=e227]: Rp1100000.0jt
+                    - generic [ref=e229]: Rp1650000.0jt
+                    - generic [ref=e231]: Rp2200000.0jt
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - heading "Kebutuhan Menipis" [level=3] [ref=e235]
+              - link "Inventori" [ref=e236] [cursor=pointer]:
+                - /url: /inventori
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - generic [ref=e242]:
+                    - paragraph [ref=e243]: Minyak Goreng 2L
+                    - paragraph [ref=e244]: "Tersisa: 1 pouch (Min: 2)"
+                  - generic [ref=e245]: Menipis ⚠
+                - generic [ref=e249]:
+                  - generic [ref=e250]:
+                    - paragraph [ref=e251]: Sabun Cuci
+                    - paragraph [ref=e252]: "Tersisa: 0 pack (Min: 1)"
+                  - generic [ref=e253]: Menipis ⚠
+                - generic [ref=e257]:
+                  - generic [ref=e258]:
+                    - paragraph [ref=e259]: Garam Dapur 72ms89
+                    - paragraph [ref=e260]: "Tersisa: 2 bungkus (Min: 3)"
+                  - generic [ref=e261]: Menipis ⚠
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - paragraph [ref=e267]: Tepung Terigu zw89qz
+                    - paragraph [ref=e268]: "Tersisa: 0 kg (Min: 2)"
+                  - generic [ref=e269]: Menipis ⚠
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - paragraph [ref=e275]: Barang uase01
+                    - paragraph [ref=e276]: "Tersisa: 2 pcs (Min: 3)"
+                  - generic [ref=e277]: Menipis ⚠
+              - link [ref=e281] [cursor=pointer]:
+                - /url: /belanja
+                - button "Buat Draf Belanja Sekarang" [ref=e282]
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - heading "Transaksi Terbaru" [level=3] [ref=e287]
+              - link "Lihat Semua" [ref=e288] [cursor=pointer]:
+                - /url: /transaksi
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - generic [ref=e299]:
+                  - paragraph [ref=e300]: Belanja Cat m6vdn2
+                  - paragraph [ref=e301]: 28 Okt 2026 • Pembelian dari Vendor
+                - generic [ref=e302]: "- Rp 10.000"
+              - generic [ref=e303]:
+                - generic [ref=e309]:
+                  - paragraph [ref=e310]: Belanja Cat pb6uce
+                  - paragraph [ref=e311]: 28 Okt 2026 • Pembelian dari Vendor
+                - generic [ref=e312]: "- Rp 200.000"
+              - generic [ref=e313]:
+                - generic [ref=e319]:
+                  - paragraph [ref=e320]: Belanja Cat zmf4kp
+                  - paragraph [ref=e321]: 28 Okt 2026 • Pembelian dari Vendor
+                - generic [ref=e322]: "- Rp 50.000"
+              - generic [ref=e323]:
+                - generic [ref=e329]:
+                  - paragraph [ref=e330]: Belanja Cat zn5h69
+                  - paragraph [ref=e331]: 28 Okt 2026 • Pembelian dari Vendor-a8ywqy
+                - generic [ref=e332]: "- Rp 150.000"
+              - generic [ref=e333]:
+                - generic [ref=e339]:
+                  - paragraph [ref=e340]: Belanja Cat hsh272
+                  - paragraph [ref=e341]: 28 Okt 2026 • Pembelian dari Lelang Properti
+                - generic [ref=e342]: "- Rp 999.999.999.999"
+              - generic [ref=e343]:
+                - generic [ref=e349]:
+                  - paragraph [ref=e350]: Belanja Cat ruv8el
+                  - paragraph [ref=e351]: 28 Okt 2026 • Investasi Skala Besar
+                - generic [ref=e352]: "- Rp 999.999.999.999"
+              - generic [ref=e353]:
+                - generic [ref=e359]:
+                  - paragraph [ref=e360]: Gaji Source b8kcon
+                  - paragraph [ref=e361]: 28 Okt 2026 • Penjualan Aset Properti Maksimal
+                - generic [ref=e362]: + Rp 999.999.999.999
+              - generic [ref=e363]:
+                - generic [ref=e369]:
+                  - paragraph [ref=e370]: Belanja Cat yj82s2
+                  - paragraph [ref=e371]: 28 Okt 2026 • Pembelian dari Vendor
+                - generic [ref=e372]: "- Rp 40.000"
+              - generic [ref=e373]:
+                - generic [ref=e379]:
+                  - paragraph [ref=e380]: Cat H1 hmrfx8
+                  - paragraph [ref=e381]: 28 Okt 2026 • Secret H1 Expense
+                - generic [ref=e382]: "- Rp 125.000"
+              - generic [ref=e383]:
+                - generic [ref=e389]:
+                  - paragraph [ref=e390]: Source H1 vdlcfb
+                  - paragraph [ref=e391]: 28 Okt 2026 • Secret H1 Income
+                - generic [ref=e392]: + Rp 500.000
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - heading "Jatuh Tempo Hutang & Piutang" [level=3] [ref=e395]
+              - link "Kelola Hutang" [ref=e396] [cursor=pointer]:
+                - /url: /hutang
+            - generic [ref=e400]:
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: Pihak er520x
+                    - generic [ref=e405]: Hutang
+                  - paragraph [ref=e411]: "Jatuh tempo: 1 Jan 2025"
+                - generic [ref=e412]:
+                  - generic [ref=e413]: Rp 1.000.000
+                  - text: Sisa saldo
+              - generic [ref=e414]:
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: Dewi Lestari
+                    - generic [ref=e418]: Piutang
+                  - paragraph [ref=e420]: "Jatuh tempo: 2 Nov 2026"
+                - generic [ref=e421]:
+                  - generic [ref=e422]: Rp 350.000
+                  - text: Sisa saldo
+              - generic [ref=e423]:
+                - generic [ref=e424]:
+                  - generic [ref=e425]:
+                    - generic [ref=e426]: Bengkel Motor Berkah
+                    - generic [ref=e427]: Hutang
+                  - paragraph [ref=e433]: "Jatuh tempo: 7 Nov 2026"
+                - generic [ref=e434]:
+                  - generic [ref=e435]: Rp 650.000
+                  - text: Sisa saldo
+              - generic [ref=e436]:
+                - generic [ref=e437]:
+                  - generic [ref=e438]:
+                    - generic [ref=e439]: Rendra Pratama
+                    - generic [ref=e440]: Piutang
+                  - paragraph [ref=e442]: "Jatuh tempo: 12 Nov 2026"
+                - generic [ref=e443]:
+                  - generic [ref=e444]: Rp 700.000
+                  - text: Sisa saldo
+              - generic [ref=e445]:
+                - generic [ref=e446]:
+                  - generic [ref=e447]:
+                    - generic [ref=e448]: Teman Kantor jmaro0
+                    - generic [ref=e449]: Piutang
+                  - paragraph [ref=e451]: "Jatuh tempo: 15 Nov 2026"
+                - generic [ref=e452]:
+                  - generic [ref=e453]: Rp 500.000
+                  - text: Sisa saldo
+  - generic [aria-hidden] [ref=e454]: Rp 0.0jt

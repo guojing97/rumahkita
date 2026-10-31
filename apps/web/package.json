@@ -1,0 +1,42 @@
+{
+  "name": "@rumahkita/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --loader ./src/__tests__/loader.mjs --test src/__tests__/**/*.test.ts",
+    "clean": "rimraf .next dist"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@rumahkita/contracts": "workspace:*",
+    "@rumahkita/ui": "workspace:*",
+    "@tanstack/react-table": "^8.21.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.446.0",
+    "next": "^14.2.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.91.0",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^2.5.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@rumahkita/typescript-config": "workspace:*",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8.4.47",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  }
+}

@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e152]
+  - generic [ref=e154]:
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]: RumahKita
+        - generic [ref=e158]: MVP
+      - paragraph [ref=e159]: Urus rumah bareng-bareng.
+      - paragraph [ref=e160]: Masuk untuk mencatat keuangan dan mengelola inventori rumah tangga.
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]: Alamat Email*
+        - textbox "Alamat Email*" [ref=e165]:
+          - /placeholder: nama@email.com
+      - generic [ref=e166]:
+        - generic [ref=e167]: Kata Sandi*
+        - textbox "Kata Sandi*" [ref=e169]:
+          - /placeholder: ••••••••
+      - button "Masuk ke RumahKita" [ref=e171] [cursor=pointer]
+    - paragraph [ref=e178]:
+      - text: "Akun bawaan sistem:"
+      - code [ref=e179]: budi@rumahkita.local
+      - text: /
+      - code [ref=e180]: Password123!

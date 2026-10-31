@@ -1,0 +1,28 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - generic [ref=f3e5]:
+        - generic [ref=f3e6]: RumahKita
+        - generic [ref=f3e7]: MVP
+      - paragraph [ref=f3e8]: Urus rumah bareng-bareng.
+      - paragraph [ref=f3e9]: Masuk untuk mencatat keuangan dan mengelola inventori rumah tangga.
+    - alert [ref=f3e31]:
+      - generic [ref=f3e34]: Email atau password salah
+    - generic [ref=f3e10]:
+      - generic [ref=f3e11]:
+        - generic [ref=f3e12]: Alamat Email*
+        - textbox "Alamat Email*" [ref=f3e14]:
+          - /placeholder: nama@email.com
+          - text: budi@rumahkita.local
+      - generic [ref=f3e15]:
+        - generic [ref=f3e16]: Kata Sandi*
+        - textbox "Kata Sandi*" [ref=f3e18]:
+          - /placeholder: ••••••••
+          - text: SalahPassword!
+      - button "Masuk ke RumahKita" [ref=f3e20] [cursor=pointer]
+    - paragraph [ref=f3e27]:
+      - text: "Akun bawaan sistem:"
+      - code [ref=f3e28]: budi@rumahkita.local
+      - text: /
+      - code [ref=f3e29]: Password123!
+  - alert [ref=f3e30]

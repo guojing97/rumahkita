@@ -1,0 +1,283 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - complementary [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - generic [ref=f5e8]:
+          - generic [ref=f5e9]: RumahKita
+          - generic [ref=f5e10]: MVP
+        - paragraph [ref=f5e11]: Urus rumah bareng-bareng.
+      - generic [ref=f5e13]:
+        - generic [ref=f5e14]:
+          - generic [ref=f5e15]: Rumah Tangga
+          - generic [ref=f5e16]: Pemilik
+        - generic [ref=f5e18]: Keluarga Cemara
+      - navigation [ref=f5e23]:
+        - link "Dashboard" [ref=f5e24] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Transaksi" [ref=f5e31] [cursor=pointer]:
+          - /url: /transaksi
+        - link "Belanja" [ref=f5e36] [cursor=pointer]:
+          - /url: /belanja
+        - link "Inventori" [ref=f5e42] [cursor=pointer]:
+          - /url: /inventori
+        - link "Hutang & Piutang" [ref=f5e48] [cursor=pointer]:
+          - /url: /hutang
+        - link "Laporan" [ref=f5e56] [cursor=pointer]:
+          - /url: /laporan
+        - link "Pengaturan" [ref=f5e60] [cursor=pointer]:
+          - /url: /pengaturan
+      - generic [ref=f5e66]:
+        - generic [ref=f5e67]:
+          - generic [ref=f5e68]: BS
+          - generic [ref=f5e69]:
+            - paragraph [ref=f5e70]: Budi Santoso
+            - paragraph [ref=f5e71]: budi@rumahkita.local
+        - button "Keluar akun" [ref=f5e72] [cursor=pointer]
+    - main [ref=f5e76]:
+      - generic [ref=f5e78]:
+        - generic [ref=f5e79]:
+          - generic [ref=f5e80]:
+            - heading "Transaksi Keuangan" [level=1] [ref=f5e81]
+            - paragraph [ref=f5e82]: Catat dan pantau seluruh arus masuk dan keluar kas rumah tangga.
+          - generic [ref=f5e83]:
+            - button "+ Pemasukan" [ref=f5e84] [cursor=pointer]
+            - button "+ Pengeluaran" [ref=f5e90] [cursor=pointer]
+        - generic [ref=f5e96]:
+          - generic [ref=f5e97]:
+            - button "Semua (21)" [ref=f5e98] [cursor=pointer]
+            - button "Pengeluaran (14)" [ref=f5e99] [cursor=pointer]
+            - button "Pemasukan (7)" [ref=f5e100] [cursor=pointer]
+          - textbox "Cari transaksi / catatan..." [ref=f5e102]
+        - generic [ref=f5e103]:
+          - generic [ref=f5e104]:
+            - generic [ref=f5e105]: Total Pengeluaran
+            - generic [ref=f5e106]: Rp 4.790.000
+          - generic [ref=f5e107]:
+            - generic [ref=f5e108]: Total Pemasukan
+            - generic [ref=f5e109]: Rp 47.100.000
+          - generic [ref=f5e110]:
+            - generic [ref=f5e111]: Arus Kas Bersih
+            - generic [ref=f5e112]: Rp 42.310.000
+        - table [ref=f5e114]:
+          - rowgroup [ref=f5e115]:
+            - row [ref=f5e116]:
+              - columnheader [ref=f5e117]:
+                - button "Tanggal" [ref=f5e118] [cursor=pointer]
+              - columnheader "Tipe" [ref=f5e123]
+              - columnheader "Kategori / Sumber" [ref=f5e124]
+              - columnheader "Catatan" [ref=f5e125]
+              - columnheader [ref=f5e126]:
+                - button "Nominal" [ref=f5e128] [cursor=pointer]
+              - columnheader "Aksi" [ref=f5e133]
+          - rowgroup [ref=f5e135]:
+            - row [ref=f5e136]:
+              - cell "27 Okt 2026" [ref=f5e137]
+              - cell "Pemasukan" [ref=f5e138]
+              - cell "Gaji Pokok bfyth9" [ref=f5e143]
+              - cell "Gaji Bulanan PT Maju Bersama" [ref=f5e146]
+              - cell "+ Rp 15.000.000" [ref=f5e148]
+              - cell [ref=f5e150]:
+                - button "Hapus transaksi" [ref=f5e152] [cursor=pointer]
+            - row [ref=f5e156]:
+              - cell "27 Okt 2026" [ref=f5e157]
+              - cell "Pemasukan" [ref=f5e158]
+              - cell "Gaji Source 135bp7" [ref=f5e163]
+              - cell "H1 confidential income" [ref=f5e166]
+              - cell "+ Rp 1.000.000" [ref=f5e168]
+              - cell [ref=f5e170]:
+                - button "Hapus transaksi" [ref=f5e172] [cursor=pointer]
+            - row [ref=f5e176]:
+              - cell "27 Okt 2026" [ref=f5e177]
+              - cell "Pemasukan" [ref=f5e178]
+              - cell "Gaji Source 1r1sfm" [ref=f5e183]
+              - cell "Gaji Bulanan Oktober" [ref=f5e186]
+              - cell "+ Rp 12.500.000" [ref=f5e188]
+              - cell [ref=f5e190]:
+                - button "Hapus transaksi" [ref=f5e192] [cursor=pointer]
+            - row [ref=f5e196]:
+              - cell "27 Okt 2026" [ref=f5e197]
+              - cell "Pengeluaran" [ref=f5e198]
+              - 'cell "Dapur Bersama zaelpm Metode: cash" [ref=f5e205]':
+                - generic [ref=f5e206]:
+                  - generic [ref=f5e207]: Dapur Bersama zaelpm
+                  - generic [ref=f5e208]: "Metode: cash"
+              - cell "Beli buah untuk sarapan bersama" [ref=f5e209]
+              - cell "- Rp 120.000" [ref=f5e211]
+              - cell [ref=f5e213]:
+                - button "Hapus transaksi" [ref=f5e215] [cursor=pointer]
+            - row [ref=f5e219]:
+              - cell "27 Okt 2026" [ref=f5e220]
+              - cell "Pengeluaran" [ref=f5e221]
+              - 'cell "Belanja Sembako hpb31q Metode: ewallet" [ref=f5e228]':
+                - generic [ref=f5e229]:
+                  - generic [ref=f5e230]: Belanja Sembako hpb31q
+                  - generic [ref=f5e231]: "Metode: ewallet"
+              - 'cell "Pembelian: Belanja persediaan bulanan" [ref=f5e232]'
+              - cell "- Rp 350.000" [ref=f5e234]
+              - cell [ref=f5e236]:
+                - button "Hapus transaksi" [ref=f5e238] [cursor=pointer]
+            - row [ref=f5e242]:
+              - cell "27 Okt 2026" [ref=f5e243]
+              - cell "Pengeluaran" [ref=f5e244]
+              - 'cell "Tagihan Rumah n40agw Metode: transfer" [ref=f5e251]':
+                - generic [ref=f5e252]:
+                  - generic [ref=f5e253]: Tagihan Rumah n40agw
+                  - generic [ref=f5e254]: "Metode: transfer"
+              - cell "Tagihan Listrik PLN & Air PAM" [ref=f5e255]
+              - cell "- Rp 750.000" [ref=f5e257]
+              - cell [ref=f5e259]:
+                - button "Hapus transaksi" [ref=f5e261] [cursor=pointer]
+            - row [ref=f5e265]:
+              - cell "27 Okt 2026" [ref=f5e266]
+              - cell "Pengeluaran" [ref=f5e267]
+              - 'cell "Belanja Cat uszdhj Metode: cash" [ref=f5e274]':
+                - generic [ref=f5e275]:
+                  - generic [ref=f5e276]: Belanja Cat uszdhj
+                  - generic [ref=f5e277]: "Metode: cash"
+              - cell "Pembelian dari Vendor" [ref=f5e278]
+              - cell "- Rp 10.000" [ref=f5e280]
+              - cell [ref=f5e282]:
+                - button "Hapus transaksi" [ref=f5e284] [cursor=pointer]
+            - row [ref=f5e288]:
+              - cell "27 Okt 2026" [ref=f5e289]
+              - cell "Pengeluaran" [ref=f5e290]
+              - 'cell "Belanja Cat f7utst Metode: cash" [ref=f5e297]':
+                - generic [ref=f5e298]:
+                  - generic [ref=f5e299]: Belanja Cat f7utst
+                  - generic [ref=f5e300]: "Metode: cash"
+              - cell "Pembelian dari Vendor" [ref=f5e301]
+              - cell "- Rp 30.000" [ref=f5e303]
+              - cell [ref=f5e305]:
+                - button "Hapus transaksi" [ref=f5e307] [cursor=pointer]
+            - row [ref=f5e311]:
+              - cell "27 Okt 2026" [ref=f5e312]
+              - cell "Pengeluaran" [ref=f5e313]
+              - 'cell "Belanja Cat k8l95j Metode: transfer" [ref=f5e320]':
+                - generic [ref=f5e321]:
+                  - generic [ref=f5e322]: Belanja Cat k8l95j
+                  - generic [ref=f5e323]: "Metode: transfer"
+              - 'cell "Pembelian: Restock beras dan sembako" [ref=f5e324]'
+              - cell "- Rp 120.000" [ref=f5e326]
+              - cell [ref=f5e328]:
+                - button "Hapus transaksi" [ref=f5e330] [cursor=pointer]
+            - row [ref=f5e334]:
+              - cell "27 Okt 2026" [ref=f5e335]
+              - cell "Pengeluaran" [ref=f5e336]
+              - 'cell "Belanja Cat xzqn9l Metode: cash" [ref=f5e343]':
+                - generic [ref=f5e344]:
+                  - generic [ref=f5e345]: Belanja Cat xzqn9l
+                  - generic [ref=f5e346]: "Metode: cash"
+              - cell "Expense Rahasia H1" [ref=f5e347]
+              - cell "- Rp 250.000" [ref=f5e349]
+              - cell [ref=f5e351]:
+                - button "Hapus transaksi" [ref=f5e353] [cursor=pointer]
+            - row [ref=f5e357]:
+              - cell "27 Okt 2026" [ref=f5e358]
+              - cell "Pengeluaran" [ref=f5e359]
+              - 'cell "Belanja Cat i1rrsq Metode: cash" [ref=f5e366]':
+                - generic [ref=f5e367]:
+                  - generic [ref=f5e368]: Belanja Cat i1rrsq
+                  - generic [ref=f5e369]: "Metode: cash"
+              - cell "Beli galon air" [ref=f5e370]
+              - cell "- Rp 75.000" [ref=f5e372]
+              - cell [ref=f5e374]:
+                - button "Hapus transaksi" [ref=f5e376] [cursor=pointer]
+            - row [ref=f5e380]:
+              - cell "27 Okt 2026" [ref=f5e381]
+              - cell "Pengeluaran" [ref=f5e382]
+              - 'cell "Belanja Cat qcetau Metode: transfer" [ref=f5e389]':
+                - generic [ref=f5e390]:
+                  - generic [ref=f5e391]: Belanja Cat qcetau
+                  - generic [ref=f5e392]: "Metode: transfer"
+              - cell "Tagihan Listrik PLN" [ref=f5e393]
+              - cell "- Rp 185.000" [ref=f5e395]
+              - cell [ref=f5e397]:
+                - button "Hapus transaksi" [ref=f5e399] [cursor=pointer]
+            - row [ref=f5e403]:
+              - cell "26 Okt 2026" [ref=f5e404]
+              - cell "Pengeluaran" [ref=f5e405]
+              - 'cell "Makan & Minum Metode: transfer" [ref=f5e412]':
+                - generic [ref=f5e413]:
+                  - generic [ref=f5e414]: Makan & Minum
+                  - generic [ref=f5e415]: "Metode: transfer"
+              - cell "Belanja bulanan bahan pokok & groceries" [ref=f5e416]
+              - cell "- Rp 1.250.000" [ref=f5e418]
+              - cell [ref=f5e420]:
+                - button "Hapus transaksi" [ref=f5e422] [cursor=pointer]
+            - row [ref=f5e426]:
+              - cell "25 Okt 2026" [ref=f5e427]
+              - cell "Pemasukan" [ref=f5e428]
+              - cell "Gaji" [ref=f5e433]
+              - cell "Gaji bulanan Budi Santoso" [ref=f5e436]
+              - cell "+ Rp 12.500.000" [ref=f5e438]
+              - cell [ref=f5e440]:
+                - button "Hapus transaksi" [ref=f5e442] [cursor=pointer]
+            - row [ref=f5e446]:
+              - cell "25 Okt 2026" [ref=f5e447]
+              - cell "Pengeluaran" [ref=f5e448]
+              - 'cell "Makan & Minum Metode: ewallet" [ref=f5e455]':
+                - generic [ref=f5e456]:
+                  - generic [ref=f5e457]: Makan & Minum
+                  - generic [ref=f5e458]: "Metode: ewallet"
+              - cell "Makan malam akhir pekan" [ref=f5e459]
+              - cell "- Rp 300.000" [ref=f5e461]
+              - cell [ref=f5e463]:
+                - button "Hapus transaksi" [ref=f5e465] [cursor=pointer]
+            - row [ref=f5e469]:
+              - cell "24 Okt 2026" [ref=f5e470]
+              - cell "Pengeluaran" [ref=f5e471]
+              - 'cell "Transportasi Metode: cash" [ref=f5e478]':
+                - generic [ref=f5e479]:
+                  - generic [ref=f5e480]: Transportasi
+                  - generic [ref=f5e481]: "Metode: cash"
+              - cell "Bensin kendaraan & tarif tol" [ref=f5e482]
+              - cell "- Rp 250.000" [ref=f5e484]
+              - cell [ref=f5e486]:
+                - button "Hapus transaksi" [ref=f5e488] [cursor=pointer]
+            - row [ref=f5e492]:
+              - cell "23 Okt 2026" [ref=f5e493]
+              - cell "Pengeluaran" [ref=f5e494]
+              - 'cell "Listrik & Air Metode: transfer" [ref=f5e501]':
+                - generic [ref=f5e502]:
+                  - generic [ref=f5e503]: Listrik & Air
+                  - generic [ref=f5e504]: "Metode: transfer"
+              - cell "Tagihan listrik PLN & PAM bulanan" [ref=f5e505]
+              - cell "- Rp 650.000" [ref=f5e507]
+              - cell [ref=f5e509]:
+                - button "Hapus transaksi" [ref=f5e511] [cursor=pointer]
+            - row [ref=f5e515]:
+              - cell "19 Okt 2026" [ref=f5e516]
+              - cell "Pengeluaran" [ref=f5e517]
+              - 'cell "Tempat Tinggal Metode: transfer" [ref=f5e524]':
+                - generic [ref=f5e525]:
+                  - generic [ref=f5e526]: Tempat Tinggal
+                  - generic [ref=f5e527]: "Metode: transfer"
+              - cell "Iuran IPL lingkungan & Internet WiFi" [ref=f5e528]
+              - cell "- Rp 450.000" [ref=f5e530]
+              - cell [ref=f5e532]:
+                - button "Hapus transaksi" [ref=f5e534] [cursor=pointer]
+            - row [ref=f5e538]:
+              - cell "17 Okt 2026" [ref=f5e539]
+              - cell "Pemasukan" [ref=f5e540]
+              - cell "Freelance" [ref=f5e545]
+              - cell "Proyek UI Design website UMKM" [ref=f5e548]
+              - cell "+ Rp 3.500.000" [ref=f5e550]
+              - cell [ref=f5e552]:
+                - button "Hapus transaksi" [ref=f5e554] [cursor=pointer]
+            - row [ref=f5e558]:
+              - cell "15 Okt 2026" [ref=f5e559]
+              - cell "Pemasukan" [ref=f5e560]
+              - cell "Gaji Source wq0e14" [ref=f5e565]
+              - cell "Mid-month freelance" [ref=f5e568]
+              - cell "+ Rp 2.000.000" [ref=f5e570]
+              - cell [ref=f5e572]:
+                - button "Hapus transaksi" [ref=f5e574] [cursor=pointer]
+            - row [ref=f5e578]:
+              - cell "9 Okt 2026" [ref=f5e579]
+              - cell "Pemasukan" [ref=f5e580]
+              - cell "Investasi" [ref=f5e585]
+              - cell "Dividen kuartal berjalan" [ref=f5e588]
+              - cell "+ Rp 600.000" [ref=f5e590]
+              - cell [ref=f5e592]:
+                - button "Hapus transaksi" [ref=f5e594] [cursor=pointer]
+  - alert [ref=f5e5]

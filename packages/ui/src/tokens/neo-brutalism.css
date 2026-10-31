@@ -1,0 +1,66 @@
+:root {
+  /* Color Palette Tokens */
+  --bg: #FFFDF7;
+  --surface: #FFFFFF;
+  --ink: #171717;
+  --muted: #66645F;
+  --primary: #C8F169;
+  --secondary: #B9D9FF;
+  --accent: #FF8A65;
+  --lavender: #D9C8FF;
+  --success: #287D4F;
+  --warning: #9A5700;
+  --danger: #B42318;
+  --border: #171717;
+
+  /* Hard Shadows (Zero Blur) */
+  --shadow-sm: 2px 2px 0 var(--ink);
+  --shadow-base: 4px 4px 0 var(--ink);
+  --shadow-hover: 5px 5px 0 var(--ink);
+  --shadow-lg: 6px 6px 0 var(--ink);
+  --shadow-active: 2px 2px 0 var(--ink);
+
+  /* Corner Radii */
+  --radius-badge: 6px;
+  --radius-btn: 8px;
+  --radius-input: 8px;
+  --radius-card: 10px;
+  --radius-modal: 12px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Neo-brutalism base button active animation */
+.neo-btn {
+  transition: transform 140ms ease-out, box-shadow 140ms ease-out;
+}
+
+.neo-btn:hover:not(:disabled) {
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-hover);
+}
+
+.neo-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: var(--shadow-active);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .neo-btn,
+  .neo-card {
+    transition: none !important;
+    transform: none !important;
+  }
+}

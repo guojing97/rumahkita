@@ -1,0 +1,31 @@
+{
+  "name": "@rumahkita/worker",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "eslint \"src/**/*.ts\"",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test \"src/__tests__/**/*.test.ts\"",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@rumahkita/contracts": "workspace:*",
+    "@rumahkita/db": "workspace:*",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.3",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "@rumahkita/eslint-config": "workspace:*",
+    "@rumahkita/typescript-config": "workspace:*",
+    "@types/node": "^22.7.5",
+    "eslint": "^8.57.0",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}

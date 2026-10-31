@@ -1,0 +1,11 @@
+{
+  "name": "@rumahkita/typescript-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "base.json",
+    "react-library.json",
+    "nextjs.json",
+    "nest.json"
+  ]
+}
