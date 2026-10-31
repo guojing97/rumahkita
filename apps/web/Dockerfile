@@ -1,7 +1,7 @@
 # ==============================================================================
 # Stage 1 – Dependencies
 # ==============================================================================
-FROM node:20-alpine AS deps
+FROM node:22-alpine AS deps
 
 RUN corepack enable && corepack prepare pnpm@11.25.0 --activate
 
@@ -21,7 +21,7 @@ RUN pnpm install --frozen-lockfile
 # ==============================================================================
 # Stage 2 – Builder
 # ==============================================================================
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 
 RUN corepack enable && corepack prepare pnpm@11.25.0 --activate
 
@@ -54,7 +54,7 @@ RUN pnpm --filter @rumahkita/contracts build && \
 # Stage 3 – Runner
 # Uses Next.js standalone output for minimal image size
 # ==============================================================================
-FROM node:20-alpine AS runner
+FROM node:22-alpine AS runner
 
 ENV NODE_ENV=production
 ENV PORT=3001

@@ -2,7 +2,7 @@
 # Stage 1 – Dependencies
 # Install ALL dependencies (including dev) needed to build the monorepo
 # ==============================================================================
-FROM node:20-alpine AS deps
+FROM node:22-alpine AS deps
 
 # Install pnpm
 RUN corepack enable && corepack prepare pnpm@11.25.0 --activate
@@ -27,7 +27,7 @@ RUN pnpm install --frozen-lockfile
 # Stage 2 – Builder
 # Compile packages/contracts, packages/db, and apps/api
 # ==============================================================================
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 
 RUN corepack enable && corepack prepare pnpm@11.25.0 --activate
 
@@ -59,7 +59,7 @@ RUN pnpm --filter @rumahkita/contracts build && \
 # Stage 3 – Runner (production image)
 # Lean image with only compiled output and production node_modules
 # ==============================================================================
-FROM node:20-alpine AS runner
+FROM node:22-alpine AS runner
 
 RUN corepack enable && corepack prepare pnpm@11.25.0 --activate
 
