@@ -57,7 +57,7 @@ RUN pnpm --filter @rumahkita/contracts build && \
 FROM node:20-alpine AS runner
 
 ENV NODE_ENV=production
-ENV PORT=3000
+ENV PORT=3001
 
 WORKDIR /app
 
@@ -78,6 +78,6 @@ COPY --from=builder /app/packages/ui/dist        /app_packages/ui/dist
 
 USER nextjs
 
-EXPOSE 3000
+EXPOSE 3001
 
-CMD ["node_modules/.bin/next", "start", "-p", "3000"]
+CMD ["node_modules/.bin/next", "start", "-p", "3001"]
